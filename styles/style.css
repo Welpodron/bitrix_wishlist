@@ -1,0 +1,62 @@
+.wishlisted-cart-btn {
+    display: grid;
+    place-content: center;
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
+.wishlisted-btn {
+    border: none;
+    padding: 0;
+    background: transparent;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.wishlisted-btn >*:nth-child(n) {
+    margin: 0 5px 0 0;
+}
+
+.wishlisted-btn >*:last-child {
+    margin: 0;
+}
+
+.wishlisted-checkbox {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.wishlisted-icon {
+    transition: all .3s;
+}
+
+.wishlisted-counter {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    display: grid;
+    transition: all .3s;
+    place-content: center;
+    text-align: center;
+    line-height: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 10px;
+    top: -10px;
+    right: -10px;
+    background: #55bc51;
+    color: #fff;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
